@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+.row {
+    flex-direction: row; /*Linha */
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column; /*Coluna*/
+}
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.container {
+    display: flex;
+    padding: 8px;
+    margin: auto;
+    width: 400px;
+}
+
+.item {
+    flex: 1;
+    background-color: red;
+    font-size: 18px;
+    margin: 8px;
+    color: white;
+    text-align: center;
+}
