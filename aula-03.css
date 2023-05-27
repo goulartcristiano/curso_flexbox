@@ -58,9 +58,10 @@ body {
     margin: auto;
 }
 .item {
-    background-color: rgb(250, 38, 186);
+    background-color: rgb(156, 10, 112);
     width: 100px;
     border-radius: 15px;
     padding: 20px;
     margin: 5px;
+    color: azure;
 }
